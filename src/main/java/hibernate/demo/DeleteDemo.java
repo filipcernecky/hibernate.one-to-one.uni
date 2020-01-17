@@ -26,7 +26,7 @@ public class DeleteDemo {
             session.beginTransaction();
 
             // get instructor by primary key/id
-            int theId = 2;
+            int theId = 3;
             Instructor tempInstructor =
                     session.get(Instructor.class, theId);
             System.out.println("Found instructor: " + tempInstructor);
